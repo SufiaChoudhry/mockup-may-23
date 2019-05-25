@@ -1,0 +1,65 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+#icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#star {
+border: 1px solid gray;
+border-top: none;
+border-left: none;
+border-bottom: none;
+padding-right: 10px;
+margin-bottom: 20px;
+}
+#plus{
+
+    border: 1px solid gray;
+border-top: none;
+border-left: none;
+border-bottom: none;
+padding-right: 10px;
+margin-bottom: 20px;
+}
+
+#thumbtack{
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+#heart{
+   background-color: indianred;
+   border: 1px solid blue;
+   padding: 5px 15px;
+   border-radius: 40%;
+}
+
+#laugh{
+    background-color: #8080804a;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    border-radius: 40%;
+    margin-left: 10px;
+}
+
+#thums{
+    background-color: #8080804a;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    border-radius: 40%;
+    margin-left: 10px;
+}
+
+.f-icons{
+    display: flex:
+}
+.content-1{
+    display: flex;
+}
