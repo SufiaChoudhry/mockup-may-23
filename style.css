@@ -1,65 +1,293 @@
-/* Write all your CSS here */
-/* Please indent properly */
-/* Please use only lower-case letters */
-/* Your webpage should be 100% responsive!!! */
+body{
+    margin: 0;
+    margin-left: 0;
+}
+
+
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 5% 20%  75%;
+  color: #a09a9f;
+  
+}
+.one {
+  border-style: solid;
+  border-color:  #3f0e40e0;
+  display: flex;
+  flex-direction: column;
+  padding:0px 0px;
+  justify-content: flex-start;
+  height: 100%;
+  background-color: #3f0e40e0;
+}
+
+.tk{
+    color:white;
+}
+
+.list-items i{
+    padding-right: 10px;
+}
+
+.lock i{
+    font-size: 18px;
+}  
+
+.two {
+  border-style: solid;
+  border-color:  #460b46;
+  background-color: #460b46;
+  height: 100%;
+}
+.three {
+  border-style: solid;
+  border-left-color: #460b46;
+  border-right-color: white;
+  border-top-color: white;
+border-bottom-color: white;
+  color: black;
+  padding-left: 20px;
+  height: 100%;
+}
+
+.main-heading{
+    display: flex;
+}
+
+#bell{
+    padding-top: 0.3em;
+    padding-left: 3em;
+    font-size: 35px;
+}
+
+#down-key{
+    font-size: 15px;
+    padding-top: 2em;
+    padding-left: 0.5em
+}
+
+input[type=text]{
+    padding-left: 20px;
+}
+
+.search{
+    background-color: #3a243a;
+}
+
+li{
+    list-style-type: none;
+}
+.circle i{
+    color: green;
+    font-size: 10px;
+}
+#fa-circle {
+    color: green;
+    font-size: 10px;
+    padding-top: 28px; 
+    
+}
+
+.h2{
+    display: flex;
+
+}
+
+.h2 h2{
+    padding-left: 10px;
+}
+
+#h3 h3{
+    padding-left: 10px;
+}
+.names h3{
+    padding-left: 10px;
+}
+
+ .names h3 i{
+    font-size: 10px;
+ }
+ #plus{
+     font-size: 20px;
+ }
+ #circles i{
+     font-size: 10px;
+     color: darkgreen;
+ }
+
+ #heart{
+    color: red;
+    font-size: 15px;
+}
+.names i{
+    padding-right: 10px;
+}
+
 #icons{
     display: flex;
     justify-content: space-between;
 }
 
 #star {
-border: 1px solid gray;
-border-top: none;
-border-left: none;
-border-bottom: none;
-padding-right: 10px;
-margin-bottom: 20px;
-}
-#plus{
-
-    border: 1px solid gray;
-border-top: none;
-border-left: none;
-border-bottom: none;
-padding-right: 10px;
-margin-bottom: 20px;
-}
-
-#thumbtack{
     border: 1px solid gray;
     border-top: none;
     border-left: none;
     border-bottom: none;
     padding-right: 10px;
     margin-bottom: 20px;
+    }
+
+    #plus{
+
+        border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    }
+
+    #thumbtack{
+        border: 1px solid gray;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        padding-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    #phone{
+        padding-left: 1em;
+    }
+.header-icons{
+    color: #616061;
+    font-size: 20px;
+    padding: 10px; 
 }
 
-#heart{
-   background-color: indianred;
-   border: 1px solid blue;
-   padding: 5px 15px;
-   border-radius: 40%;
+
+#rightside-icons{
+   
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.r-icons{
+    padding: 10px;
+}
+
+.header-icons:hover{
+    color: black;
+}
+
+.input-search{
+    border: 1px solid black;
+   height: 20px;
+   
+}
+#header-input{
+    border:none;
+    
+   
+}
+.input-search input[type=search]{
+  float: right;
+
+}
+
+.header-icons{
+    display: flex;
+}
+#field{
+    text-align: center;
+   border-left: none;
+   border-right: none;
+   border-bottom: none;
+
+}
+
+#icon-heart{
+    background-color: #e8f5fa;
+    border: 1px solid #1c9bd1;
+    border-radius: 40%;
+    padding: 5px 10px;
+    color: red;
+
 }
 
 #laugh{
-    background-color: #8080804a;
     border: 1px solid gray;
-    padding: 5px 15px;
     border-radius: 40%;
-    margin-left: 10px;
+    padding: 5px 10px;
+    background-color:#8080807d;
 }
-
 #thums{
-    background-color: #8080804a;
     border: 1px solid gray;
-    padding: 5px 15px;
     border-radius: 40%;
-    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #8080807d;
+}
+.comments-images{
+    display: flex;
+    padding: 10px 5px;
 }
 
-.f-icons{
-    display: flex:
+.second-field{
+    padding: 10px;
 }
-.content-1{
+
+.content{
     display: flex;
 }
+
+.k-image{
+    padding-top: 20px;
+}
+
+.lorem{
+    padding-left: 10px;
+}
+
+#check{
+    background-color: #e8f5fa;
+    border: 1px solid #1c9bd1;
+    border-radius: 40%;
+    padding: 5px 10px;
+}
+
+#content-2{
+    background-color: #fef9ec; 
+}
+
+#images-lorem{
+    display: flex;
+}
+
+#i-m{
+    display: flex;
+    flex-direction: column;
+}
+
+.i-p{
+    display: flex;
+    flex-direction: row;
+}
+
+select{
+    width: 11em;
+    border: none;
+}
+
+.last-content{
+    display: flex;
+}
+
+.last-field{
+    height: 30px;
+    font-size: 1em;
+}
+
