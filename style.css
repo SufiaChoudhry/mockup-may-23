@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    margin-left: 0;
+   
 }
 
 .wrapper {
@@ -66,18 +66,27 @@ body {
     padding-left: 0.5em
 }
 
-.search-type {
+/* .search-type {
     border: none;
     background-color: #3a243a;
+    padding: 10px;
 }
 
 #fas-search {
     float: left;
 }
 
+
+   */
 #input-area {
     border: 1px solid white;
-    margin-right: 5.7em;
+    margin-right: 5.5em;
+    display: flex;
+     
+}
+
+#input-area input{
+    background-color: #460b46;
 }
 
 li {
@@ -326,7 +335,7 @@ fieldset legend {
 }
 
 img {
-    height: 30px;
+    height: 48px;
     padding: 5px;
 }
 
@@ -399,7 +408,7 @@ h3 {
 
 #last-input {
     font-weight: bold;
-    height: 4em;
+    height: 20px;
     width: 69em;
     border: none;
 }
@@ -416,6 +425,12 @@ h3 {
     border-bottom: none;
     border-right: 1px solid gray;
     padding-left: 10px;
+}
+
+#last-searchbar{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
 }
 
 #last-searchbar .last-icon {
@@ -494,30 +509,25 @@ h3 {
     }
 }
 
-@media screen  and (min-width:600px) and (max-width:900px) {
-    body{
+@media screen and (min-width:600px) and (max-width:900px) {
+    body {
         display: flex;
         flex-direction: column;
         margin: 0%;
     }
-
     .one {
         display: none;
     }
-
     .wrapper {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-
-
     #last-searchbar {
         display: flex;
         flex-shrink: inherit;
         width: 700px;
     }
-
     .two {
         display: flex;
         flex-direction: column;
@@ -525,7 +535,6 @@ h3 {
         text-align: center;
         align-items: center;
     }
-
     .three {
         display: flex;
         flex-direction: column;
@@ -533,16 +542,13 @@ h3 {
         text-align: center;
         align-items: center;
     }
-
     #frog-game {
         height: 300px;
         width: 300;
     }
+    #input-area {
+        display: flex;
+        justify-content: center;
+        margin-left: 8em;
+    }
 }
-
-#input-area {
-    display: flex;
-    justify-content: center;
-    margin-left: 8em;
-}
-
